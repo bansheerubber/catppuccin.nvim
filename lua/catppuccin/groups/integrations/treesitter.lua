@@ -62,6 +62,7 @@ If you want to stay on nvim 0.7, either disable the integration or pin catppucci
 
 		["@constructor"] = { fg = C.sapphire }, -- For constructor calls and definitions: = { } in Lua, and Java constructors.
 		["@operator"] = { link = "Operator" }, -- For any operator: +, but also -> and * in C.
+		["@parameter"] = { fg = C.maroon }, -- For parameters of a function.
 
 		-- Keywords
 		["@keyword"] = { link = "Keyword" }, -- For keywords that don't fall in previous categories.
